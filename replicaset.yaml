@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: ReplicaSet
+metadata:
+  name: myreplicaset
+  labels: 
+    app: khushi-app
+spec: 
+  replicas: 3
+  selector: 
+    matchlabels: 
+      app: khushi-app
+  template: 
+    metadata: 
+      labels: 
+        app: khushi-app
+    spec: 
+      containers: 
+        - name: khushi-container
+          image: nginx:latest
+          ports:
+            - containerPort: 80

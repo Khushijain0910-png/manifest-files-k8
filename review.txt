@@ -1,0 +1,2 @@
+Kubernetes is like a manager for applications that run in containers (such as Docker). Instead of you worrying about where your app should run, restarting it if it crashes, or making sure it can handle a lot of users, Kubernetes takes care of all that.
+In short: Kubernetes is powerful, flexible, and reliable. It can be a bit hard to learn at first, but once you get the hang of it, it makes managing applications much easier and smarter.
